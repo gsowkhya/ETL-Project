@@ -15,10 +15,10 @@ The main tasks are as follows:
 
 Performing the following analysis queries:
   1) Top 10 ATMs where most transactions are in the ’inactive’ state
-  2)Number of ATM failures corresponding to the different weather conditions recorded at the time of the transactions
-  3)Top 10 ATMs with the most number of transactions throughout the year
-  4)Number of overall ATM transactions going inactive per month for each month
-  5)Top 10 ATMs with the highest total amount withdrawn throughout the year
+  2) Number of ATM failures corresponding to the different weather conditions recorded at the time of the transactions
+  3) Top 10 ATMs with the most number of transactions throughout the year
+  4) Number of overall ATM transactions going inactive per month for each month
+  5) Top 10 ATMs with the highest total amount withdrawn throughout the year
   6) Number of failed ATM transactions across various card types
-  7)Top 10 records with the number of transactions ordered by the ATM_number, ATM_manufacturer, location, weekend_flag and then total_transaction_count, on weekdays and on weekends throughout the year
-  8)Most active day in each ATMs from location "Vejgaard"
+  7) Top 10 records with the number of transactions ordered by the ATM_number, ATM_manufacturer, location, weekend_flag and then total_transaction_count, on weekdays and on weekends throughout the year
+  8) Most active day in each ATMs from location "Vejgaard"
