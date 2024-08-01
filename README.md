@@ -1,4 +1,4 @@
-In this project, we will construct a batch ETL pipeline to extract transactional data from an RDS, transform it, and load it into target dimensions and facts in a Redshift Data Mart (Schema).
+In this project, we will construct a batch ETL pipeline to extract transactional data from an RDS, transform it, and load it into target dimensions and facts in a Redshift Data Mart.
 
 After loading the data into Redshift, we will write the specified analytical queries.
 
