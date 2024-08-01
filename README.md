@@ -7,11 +7,11 @@ The dataset includes transactions from over 100 ATMs across Denmark, capturing d
 Spar Nord Bank has developed a dimensional model datastore (ATM Data Mart) to analyze ATM usage patterns. The target schema of this Data Mart will be provided and used to create tables in Redshift.
 
 The main tasks are as follows:
-  Extract transactional data from a MySQL RDS server to an HDFS (EC2) instance using Sqoop.
-  Transform the transactional data according to the provided target schema using PySpark.
-  Load the transformed data into an S3 bucket.
-  Create Redshift tables based on the given schema.
-  Load the data from Amazon S3 into the Redshift tables.
+  1) Extract transactional data from a MySQL RDS server to an HDFS (EC2) instance using Sqoop.
+  2) Transform the transactional data according to the provided target schema using PySpark.
+  3) Load the transformed data into an S3 bucket.
+  4) Create Redshift tables based on the given schema.
+  5) Load the data from Amazon S3 into the Redshift tables.
 
 Performing the following analysis queries:
   1) Top 10 ATMs where most transactions are in the ’inactive’ state
